@@ -1,0 +1,19 @@
+1. Add user permission module throughout the project. // Done
+2. Add chat screen for all modules // In Progress
+3. Delete confirmation modal for organization delete.
+4. Add members icon in milestones // Done
+5. Remove Payments Screen from home tab // Done
+6. Remove Notification screen from home tab. // Done
+7. Remove message screen from home tab. // Done
+8. Fix domain select index bug in company picker screen. // Done
+9. ==========================================
+   issues (rakibul)
+   ===========================================
+10. When changed company/organization need go to subscription page again
+11.
+
+// Todo Eyafi
+
+1. Implement search of filtered items in timelog screen \*\*
+2. Reduce code by reusing Dragabble flatlist for filtered, searched and default timelogs.
+3. Expense category picker modal

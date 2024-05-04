@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "724313998914",
+    "project_id": "erpdev-8fd01",
+    "storage_bucket": "erpdev-8fd01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724313998914:android:b99ae6591b03e5d7dc8fdb",
+        "android_client_info": {
+          "package_name": "pro.vidadynamics.erp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724313998914-inq9sl1vcf9153rf3t48vbkk9pqgi6dc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZa19Imvk17PJiq7OCbgi4MaFqDw_pvCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724313998914-inq9sl1vcf9153rf3t48vbkk9pqgi6dc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

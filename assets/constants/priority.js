@@ -1,0 +1,1 @@
+export const priorities = [{id:3,name:'high'},{id:2,name:'medium'},{id:1,name:'low'}]

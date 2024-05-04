@@ -1,0 +1,1 @@
+export const timeConstrains = [{id:1,label:'Auto'},{id:2,label:'Enforce'}]

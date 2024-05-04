@@ -1,0 +1,118 @@
+{
+  "expo": {
+    "name": "Vida Projects",
+    "slug": "ERP",
+    "version": "1.0.161",
+    "orientation": "portrait",
+    "icon": "./assets/favicon.png",
+    "userInterfaceStyle": "light9200",
+    "scheme": "vidaprojects",
+    "splash": {
+      "image": "./assets/img/splash_2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#D6E2FF",
+      "translucent": false
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/favicon.png",
+          "color": "#ffffff"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ],
+      [
+        "@stripe/stripe-react-native",
+        {
+          "enableGooglePay": false
+        }
+      ],
+      ["./plugins/withAndroidVerifiedLinksWorkaround"],
+      ["react-native-compressor"],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera.",
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone."
+        }
+      ],
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone."
+        }
+      ]
+    ],
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "expo.ts",
+        "expo.tsx",
+        "expo.js",
+        "expo.jsx",
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "wasm",
+        "svg"
+      ]
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "requireFullScreen": true,
+      "bundleIdentifier": "pro.vidadynamics.erp",
+      "buildNumber": "1.0.161",
+      "infoPlist": {
+        "UIBackgroundModes": ["audio"]
+      }
+    },
+    "android": {
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "*.vidadynamics.com",
+              "pathPrefix": "/"
+            }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/favicon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "pro.vidadynamics.erp",
+      "permissions": ["android.permission.RECORD_AUDIO"],
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 162
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "54155cf9-cb06-48a5-9d53-e741dc0b5ac0"
+      }
+    }
+  }
+}
